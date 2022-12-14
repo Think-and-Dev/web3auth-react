@@ -1,8 +1,8 @@
 {
   "name": "web3auth-react",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "dev": "webpack --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.js",
@@ -11,6 +11,10 @@
     "prettier": "prettier --check \"./**/*.{ts,tsx,js,jsx,css,scss,md}\" --ignore-path .gitignore",
     "prettier:fix": "prettier --write \"./**/*.{ts,tsx,js,jsx,css,scss,md}\" --ignore-pattern node_modules/",
     "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Think-and-Dev/web3auth-react.git"
   },
   "keywords": [
     "web3auth",
